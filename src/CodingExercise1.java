@@ -13,8 +13,26 @@ String answer = JOptionPane.showInputDialog("What colour would you like john the
    	 // 4. use an if/else statement to set the pen color that the user requested (minimum of 2 colors)
 if(answer.equals("red")) {
 	john.setPenColor(255,0,0);
-}else if(answer.equals("blue")) {
+}else if(answer.equalsIgnoreCase("blue")) {
 	john.setPenColor(0, 0, 255);
+}else if(answer.equalsIgnoreCase("green")) {
+	john.setPenColor(0, 255, 0);
+}else if(answer.equalsIgnoreCase("purple")) {
+	john.setPenColor(100, 5, 100);
+}else if(answer.equalsIgnoreCase("teal")) {
+	john.setPenColor(0, 255, 255);
+}else if(answer.equalsIgnoreCase("orange")) {
+	john.setPenColor(250, 80, 0);
+}else if(answer.equalsIgnoreCase("surprise color")) {
+	john.setPenColor(10, 180, 210);
+}else if(answer.equalsIgnoreCase("yellow")) {
+	john.setPenColor(255, 255, 0);
+}else if(answer.equalsIgnoreCase("pink")) {
+	john.setPenColor(255, 55, 214);
+}else if(answer.equalsIgnoreCase("lime")) {
+	john.setPenColor(158, 255, 54);
+}else if(answer.equalsIgnoreCase("salmon")) {
+	john.setPenColor(255, 165, 163);
 }
 
    	 // 2. set the pen width to 10
